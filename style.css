@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#urna {
+    border: 2px solid black;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#display {
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+    border: 1px solid black;
+}
+
+#botoes {
+    border: 2px solid rgb(166, 38, 38);
+    padding: 10px;
+    margin: 10px;
+    justify-content: right;
+}
+
+button {
+    width: 4rem;
+    height: 2rem;
+}
